@@ -1,4 +1,3 @@
-import Link from "next/link";
 import TwitterIcon from '@mui/icons-material/Twitter';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
@@ -32,7 +31,7 @@ const Footer = () => {
                                 <ul className="space-y-2 text-sm">
                                     <li>À propos</li>
                                     <li>Livraisons & Reprises</li>
-                                    <li>Mode d'emploi</li>
+                                    <li>Mode d&apos;emploi</li>
                                     <li>F.A.Q</li>
                                 </ul>
                             </div>
@@ -53,7 +52,7 @@ const Footer = () => {
                                 <h5 className="font-bold text-lg">MON COMPTE</h5>
                                 <ul className="space-y-2 text-sm">
                                     <li>Accéder à mon compte</li>
-                                    <li>Ma liste d'envie</li>
+                                    <li>Ma liste d&apos;envie</li>
                                     <li>Créer un compte</li>
                                     <li>Mot de passe oublié</li>
                                 </ul>

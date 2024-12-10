@@ -11,7 +11,8 @@ import LightbulbIcon from '@mui/icons-material/Lightbulb';
 import ArrowDropDownIcon from '@mui/icons-material/ArrowDropDown';
 import MenuIcon from '@mui/icons-material/Menu'; // Hamburger menu icon
 import CloseIcon from '@mui/icons-material/Close'; // Close icon
-import Search, { SearchSkeleton } from './maincontent/search';
+import Search from './maincontent/search';
+import SearchSkeleton from './maincontent/search';
 
 const Header = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
